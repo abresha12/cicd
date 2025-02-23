@@ -17,10 +17,11 @@ http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/
 output application/json
 ---
 {
-	"message": "it worked"
+	"message": "it worked good job"
 }]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>
 		<logger level="INFO" doc:name="Logger" doc:id="b214bf69-1f4c-4880-b509-5025d14cca0a" message="#[payload]"/>
+		<logger level="INFO" doc:name="Logger" doc:id="eeae0ee6-83f3-4af2-a737-cccb73a94c66" message="hello"/>
 	</flow>
 </mule>

@@ -1,13 +1,17 @@
-<?xml version="1.0"?>
-<settings>
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
+  <!-- Optional pluginGroups (corrected but not needed here) -->
   <pluginGroups>
-     <pluginGroup>org.mule.com</pluginGroup>
+    <pluginGroup>org.mule.tools</pluginGroup>
   </pluginGroups>
+
   <servers>
     <server>
       <id>Repository</id>
-      <username>~~~client~~~</username>
-      <password>${client.id}~?~${client.secret}</password>
+      <username>abresha_21</username>
+      <password>Mulesoft!@#12345abresha</password>
     </server>
   </servers>
 </settings>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<settings>
+  <pluginGroups>
+     <pluginGroup>org.mule.com</pluginGroup>
+  </pluginGroups>
+  <servers>
+    <server>
+      <id>Repository</id>
+      <username>~~~client~~~</username>
+      <password>${client.id}~?~${client.secret}</password>
+    </server>
+  </servers>
+</settings>
